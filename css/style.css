@@ -1,0 +1,97 @@
+*{
+    border: none;
+    padding: 0;
+    margin: 0;   
+    list-style: none;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 10px;
+    overflow: hidden;
+    }   
+body{
+    background-color: #cbd3db;
+}
+.target{
+    margin: 5%;
+    height: 100%;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+}   
+
+li  {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 2%;
+}
+li button, .active{
+    font-size: 15px;
+    background: white;
+    color:#5a6b86;  
+}
+li:first-child{
+    border-left: 1px solid #f0f2f5;
+    border-radius: 5px 0 0 0;
+}
+li:nth-child(2){
+    border: 1px solid #f0f2f5;
+}
+li:last-child{
+    border:1px solid #f0f2f5;
+    border-radius: 0 5px 0 0;
+}
+
+.active{
+    color: black;
+}
+
+
+
+.descriptions{
+    border:1px solid #f0f2f5;
+    border-radius:0 1rem 1rem 1rem;
+}
+.description-text{
+    padding: 2rem 4%;
+    font-size: 10px;
+    background-color: #ffffff;
+    color:#728198;
+}
+.titles-description{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;  
+    padding-bottom:0.20rem ;
+    color: #1d232c;
+}
+
+@media screen and (min-width:1024px)
+{
+    .target {
+        margin: 5%;
+    }
+
+    nav li, nav span {
+        font-size: 20px;
+        padding: 1% 2%;
+    }
+
+    .description-text{
+        font-size: 15px;
+        padding: 2rem 2%;
+    }
+    .description-text p {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    #ultimate-dt{
+        padding-bottom: 5rem;
+    }
+
+}
+
